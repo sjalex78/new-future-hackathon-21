@@ -1,0 +1,13 @@
+/* styles go here */
+.splash {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.main-wrapper {
+  height: 100vh;  
+}
