@@ -6,8 +6,24 @@
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
+  flex-direction: column;
 }
-
+.splash h1 {
+  font-size: 70px;
+  color: white;
+  font-weight: 700;
+}
+.splash .home {
+  flex-grow: 1;
+}
 .main-wrapper {
   height: 100vh;  
+  background-color: gray;
+}
+
+.background-water {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  z-index: -1;
 }
