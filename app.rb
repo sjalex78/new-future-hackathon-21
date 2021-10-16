@@ -9,10 +9,10 @@ get '/' do
   erb :index
 end
 
-get '/page1' do
-  erb 'page1.html'.to_sym
+get '/hunter' do
+  erb 'hunter.html'.to_sym
 end
 
-get '/page2' do
-  erb 'page2.html'.to_sym
+get '/ironbark' do
+  erb 'ironbark.html'.to_sym
 end
